@@ -32,8 +32,8 @@ Main screen with navigation to different features.
 Screen to organize and access study materials.
 
 ![Folder](https://github.com/user-attachments/assets/604d8714-694b-4203-b593-602dad7d8ee6)
-![Quiz](https://github.com/user-attachments/assets/52a46ab8-6b53-4ba6-ab8d-2a669a600388)
 ![Add collection](https://github.com/user-attachments/assets/14cc0186-0d41-46d7-97b3-debf00ef38ae)
+![Quiz](https://github.com/user-attachments/assets/52a46ab8-6b53-4ba6-ab8d-2a669a600388)
 ![Study](https://github.com/user-attachments/assets/64dd655c-bcc5-4302-acc3-23a9eabb0c25)
 
 ### Folder

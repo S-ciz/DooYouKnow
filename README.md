@@ -20,14 +20,17 @@ User authentication screen for signing in.
 
 ### SignUp
 User authentication screen for signing up.
+
 ![Sign up](https://github.com/user-attachments/assets/f4a64869-bf13-4a41-96a1-d1ccb2abacc1)
 
 ### Home
 Main screen with navigation to different features.
+
 ![Home](https://github.com/user-attachments/assets/17d26408-3e8d-4438-b54b-8e196208169f)
 
 ### Folders
 Screen to organize and access study materials.
+
 ![Folder](https://github.com/user-attachments/assets/604d8714-694b-4203-b593-602dad7d8ee6)
 ![Quiz](https://github.com/user-attachments/assets/52a46ab8-6b53-4ba6-ab8d-2a669a600388)
 ![Add collection](https://github.com/user-attachments/assets/14cc0186-0d41-46d7-97b3-debf00ef38ae)
@@ -35,14 +38,17 @@ Screen to organize and access study materials.
 
 ### Folder
 Detailed view of a specific folder and its contents.
+
 ![Collection](https://github.com/user-attachments/assets/c31fea20-6a8f-4691-9757-d7561d73f023)
 
 ### Chats
 Screen to view and manage chat conversations.
+
 ![Chats](https://github.com/user-attachments/assets/54f22d74-a934-4915-ab0e-55e164df867f)
 
 ### ChatField
 Screen to chat with other users or AI.
+
 ![chat](https://github.com/user-attachments/assets/04ce634e-a076-4d96-b696-bbfe103e0b2a)
 
 ## Installation

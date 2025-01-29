@@ -55,4 +55,4 @@ Screen to chat with other users or AI.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/scooby-doo-study-app.git
+   git clone https://github.com/S-ciz/DooYouKnow.git

@@ -15,6 +15,7 @@ Welcome to the Scooby-Doo Study App! This app is designed to make studying fun a
 
 ### SignIn
 User authentication screen for signing in.
+
 ![Sign in](https://github.com/user-attachments/assets/9ac476fd-43e9-4ed1-838f-39884dd9c5fe)
 
 ### SignUp

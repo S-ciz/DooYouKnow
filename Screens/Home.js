@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
         top: 0,
         padding: 10,
         zIndex: 10,
+        borderRadius: 12
     },
     navItem: {
         flexDirection: 'row',

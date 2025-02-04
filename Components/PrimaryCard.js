@@ -1,8 +1,8 @@
 
 import {Text, View, StyleSheet, Image, TouchableOpacity} from "react-native"
-const PrimaryCard = ({navigation})=>{
+const PrimaryCard = ({navigation, screen})=>{
 
-    return <TouchableOpacity onPress={()=> navigation.navigate('Folder')}   style={styles.primaryCard}> 
+    return <TouchableOpacity onPress={()=> navigation.navigate(screen)}   style={styles.primaryCard}> 
    
         <View> 
           <Text style={styles.text}>Geography</Text>

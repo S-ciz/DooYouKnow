@@ -13,14 +13,15 @@ import Folders from './Screens/Folders';
 import Folder from './Screens/Folder';
 import Chats from "./Screens/Chats"
 import ChatField from "./Screens/ChatField"
-
+import Study from './Screens/Study';
+import Quiz from './Screens/Quiz';
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator  screenOptions={{
-          headerShown: false, // Hides the header for all screens
-        }}
-         initialRouteName='SignIn'>
+      <Stack.Navigator screenOptions={{
+        headerShown: false, // Hides the header for all screens
+      }}
+        initialRouteName='SignIn'>
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="SignUp" component={SignUp} />
         <Stack.Screen name="Home" component={Home} />
@@ -28,6 +29,9 @@ export default function App() {
         <Stack.Screen name="Folder" component={Folder} />
         <Stack.Screen name="Chats" component={Chats} />
         <Stack.Screen name="ChatField" component={ChatField} />
+        <Stack.Screen name="Study" component={Study} />
+        <Stack.Screen name="Quiz" component={Quiz} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );

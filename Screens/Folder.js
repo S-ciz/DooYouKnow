@@ -42,8 +42,13 @@ const Folder = ({ navigation }) => {
     return (
         <View ref={containerRef} onPress={closeModal} style={styles.container}>
             <View style={styles.primaryImage}>
-               <Button color={'white'} bgColor={"#fd5c63"} text={"Study"}/>
-               <Button color={'white'} bgColor={"#EE204D"} text={"Take Quiz"}/>
+                <TouchableOpacity onPress={()=> navigation.navigate('Study')} style={styles.btn}>
+                    <Text style={{color: 'white'}}>Study</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={()=> navigation.navigate('Quiz')} style={styles.btn}>
+                    <Text  style={{color:'white', fontWeight: 'bold',padding:12,boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px' }}>Take Quiz</Text>
+                </TouchableOpacity>
+
             </View>
 
             <BlurView intensity={12} style={styles.form}>
@@ -84,29 +89,34 @@ const styles = StyleSheet.create({
         position: 'relative',
 
     },
+    btn:
+    {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        justifyItems: 'center',
+        width: '100%',
+        textAlign: 'center',
+       
+        marginTop: 20
+    },
     primaryImage:
     {
         backgroundColor: '#FD5C63',
-        marginTop: -50,
+        marginTop: 0,
         paddingBottom: 50,
         width: '100%',
         height: 400,
         justifyContent: 'center',
         justifyItems: 'center'
-       
-
     },
     form:
     {
         height: 600,
         width: '100%',
-        top: - 100,
+        top: -100,
         borderTopLeftRadius: 50,
         borderTopRightRadius: 50,
         backgroundColor: 'white',
-
-
-
     },
     heading:
     {

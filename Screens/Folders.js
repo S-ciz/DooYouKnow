@@ -67,8 +67,8 @@ const containerRef = useRef(null);
             </View>
 
             <ScrollView>
-               <PrimaryCard navigation={navigation}/>
-               <PrimaryCard/>
+               <PrimaryCard screen={"Folder"} navigation={navigation}/>
+               <PrimaryCard screen={"Folder"} navigation={navigation}/>
             </ScrollView>
 
         </BlurView>
